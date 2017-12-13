@@ -40,7 +40,7 @@ declare module 'winston-mongodb' {
         * @type {string}
         * @memberof MongoDBConnectionOptions
         */
-       level?: string;
+       level?: string | string [];
        /**
         * Boolean flag indicating whether to suppress output, defaults to false.
         * 
